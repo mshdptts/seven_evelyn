@@ -22,7 +22,20 @@ public product(int id, String name, double price, int quantity, boolean isAvaila
 
 //getter methods for class variables
 
+public int getId() {
+    return id;}
 
+    public String getName() {
+        return name;   }
+
+        public double getPrice() {
+            return price;   }
+
+            public int getQuantity() {
+                return quantity;   }
+
+                public boolean isAvailable() {
+                    return isAvailable;   }
 
 
 
